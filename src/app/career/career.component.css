@@ -1,0 +1,30 @@
+*
+{
+    color: white;
+}
+
+
+.header-extra{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.extra{
+    border:none; 
+    padding: 50px!important;
+    border: 2px solid #249063;
+}
+.extra:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.extra h4{     	
+    
+    font-weight: bolder;
+    line-height: 1.5;
+}
+.extra p{
+    line-height: 1;
+    color: white;
+}
+

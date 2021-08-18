@@ -1,0 +1,41 @@
+h3{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.talk
+
+{
+    border: none;
+    padding: 50px!important;
+    color: #FFFFFF;
+
+}
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+  }
+  .border-gradient-purple {
+    border-image-source: linear-gradient(to left, #5d00ff, #ff00a2);
+  }
+  .border-gradient-purple:hover {
+    border-image-source: linear-gradient(to left, #ff00a2, #5d00ff);
+  }
+
+  .border-gradient-green {
+    border-image-source: linear-gradient(to left, #00b84c, #88ff00);
+  }
+  .border-gradient-green:hover {
+    border-image-source: linear-gradient(to left, #88ff00, #00b84c);
+  }
+
+  .border-gradient-yellow {
+    border-image-source: linear-gradient(to left, #eeff00, #ff0000);
+  }
+  
+
+  .border-gradient-yellow:hover {
+    border-image-source: linear-gradient(to left, #ff0000, #eeff00);
+  }

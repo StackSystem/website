@@ -1,0 +1,97 @@
+.piller{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.piller .col{
+    padding: 30px!important;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.644), 0 8px 18px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+   
+}
+
+
+
+h4{
+    color: #249063;
+    font-weight: bolder;
+}
+
+a{
+    color: #249063;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+
+.a1
+{
+    background: -webkit-linear-gradient( 0deg, rgba(0,241,255,1) 30%,  rgba(78,255,0,1)70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.a2
+{
+    background: -webkit-linear-gradient( 0deg, rgb(77, 255, 0) 30%, rgb(255, 0, 0) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.a3
+{
+    background: -webkit-linear-gradient( 0deg, rgb(17, 0, 255) 30%, rgba(255,0,224,1) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cardtitle
+{
+    font-family: Arial;
+  background: -webkit-linear-gradient( 0deg, rgba(78,255,0,1) 0%, rgba(0,241,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.cardtitle2
+{
+    font-family: Arial;
+  background: -webkit-linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,222,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 35px;
+}
+.cardtitle3
+{
+    font-family: Arial;
+  background: -webkit-linear-gradient(0deg, rgba(255,0,224,1) 0%, rgb(17, 0, 255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 320px) {
+    .cardtitle
+{
+    
+  font-size: 32px;
+}
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, rgba(78,255,0,1) 0%, rgba(0,241,255,1));
+}
+.border-gradient-yellow {
+  border-image-source: linear-gradient(to left, rgba(255,0,0,1) 0%, rgba(255,222,0,1));
+}
+.border-gradient-red {
+  border-image-source: linear-gradient(to left, rgba(255,0,224,1) 0%, rgb(17, 0, 255));
+}

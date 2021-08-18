@@ -1,0 +1,41 @@
+h1{
+    font-family: Arial;
+  background: -webkit-linear-gradient(95deg, rgba(255,0,0,1) 50%, rgba(255,222,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 35px;
+  
+}
+
+label
+{
+  color: #269261;
+}
+
+.txtbox
+{
+  background-color: #0f0d13;
+  border-color: #269261;
+  border-width: 1px;
+  color: #269261;
+}
+
+.txtbox:focus
+{
+  background-color: #0f0d13;
+  border-color: #ffffff;
+  border-width: 1px;
+  color: #269261;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.row
+{
+  justify-content: center;
+}

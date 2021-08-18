@@ -1,0 +1,27 @@
+h3 span{
+    font-family: Arial;
+  background: -webkit-linear-gradient(95deg, rgb(255, 0, 242) 20%, rgb(255, 221, 0) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 35px;
+  
+}
+.title-big {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+    .order2 { order: 1; }
+    .order1 { order: 2;  }
+}
+
+
+a
+{
+    background: -webkit-linear-gradient(95deg, rgb(255, 0, 242) 20%, rgb(255, 221, 0) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

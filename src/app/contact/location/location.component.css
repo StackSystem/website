@@ -1,0 +1,19 @@
+*
+{
+    color: #FFFFFF;
+}
+
+h3{
+    font-family: Arial;
+  background: -webkit-linear-gradient(45deg, rgba(255,0,0,1) 05%, rgba(255,222,0,1) 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+
+h5
+{
+    font-family: Arial;
+    font-weight: 500;
+}

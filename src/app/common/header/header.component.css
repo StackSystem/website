@@ -1,0 +1,23 @@
+.headerlogo
+{
+    height: 33px;
+    width: 30px;
+}
+
+.navbar .navbar-collapse .navbar-nav > li > a{
+    color:#FFFFFF;
+}
+.navbar .navbar-collapse .navbar-nav > li > a:hover{
+    color:#249063;
+    justify-content: end;
+}
+
+.navbar-toggler-icon
+{
+    color: #00bf8f;
+}
+
+i{
+    color: #00bf8f;
+    
+}
