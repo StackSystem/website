@@ -30,6 +30,10 @@ import { SpotlightsComponent } from './spotlights/spotlights.component';
 import { CspComponent } from './csp/csp.component';
 import { BusinessComponent } from './business/business.component';
 import { EducationComponent } from './education/education.component';
+import { ServbannerComponent } from './services/servbanner/servbanner.component';
+import { AubannerComponent } from './aboutus/aubanner/aubanner.component';
+import { AucardComponent } from './aboutus/aucard/aucard.component';
+import { MissionComponent } from './aboutus/mission/mission.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +64,11 @@ import { EducationComponent } from './education/education.component';
     SpotlightsComponent,
     CspComponent,
     BusinessComponent,
-    EducationComponent
+    EducationComponent,
+    ServbannerComponent,
+    AubannerComponent,
+    AucardComponent,
+    MissionComponent
   ],
   imports: [
     BrowserModule,

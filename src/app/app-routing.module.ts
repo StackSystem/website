@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CspComponent } from './csp/csp.component';
 import { CustomersComponent } from './customers/customers.component';
 import { DevelopmentComponent } from './development/development.component';
+import { SdacrdComponent } from './development/sdacrd/sdacrd.component';
 import { MainComponent } from './main/main.component';
 import { ServicesComponent } from './services/services.component';
 import { SpotlightsComponent } from './spotlights/spotlights.component';
@@ -125,6 +126,7 @@ const routes: Routes = [
       title: 'StackSystem | Spotlights'
     }
   },
+  
 
 
 

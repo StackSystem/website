@@ -14,5 +14,12 @@
   /* Create three equal columns that sits next to each other */
   .column {
     flex: 20%;
-    padding: 5px;
+    padding: 35px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    .column {
+      flex: 50%;
+      padding: 10px;
+    }
   }

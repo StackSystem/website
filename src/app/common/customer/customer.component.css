@@ -24,3 +24,11 @@
   a:hover{
     color: #FFFFFF;
 }
+
+
+@media only screen and (max-width: 425px) {
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
+}
