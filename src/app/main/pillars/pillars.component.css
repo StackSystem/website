@@ -83,15 +83,17 @@ a{
 
 .border-gradient {
   border: 10px solid;
-  border-image-slice: 1;
   border-width: 2px;
 }
 .border-gradient-green {
   border-image-source: linear-gradient(to left, rgba(78,255,0,1) 0%, rgba(0,241,255,1));
+  border-image-slice: 2;
 }
 .border-gradient-yellow {
   border-image-source: linear-gradient(to left, rgba(255,0,0,1) 0%, rgba(255,222,0,1));
+  border-image-slice: 2;
 }
 .border-gradient-red {
   border-image-source: linear-gradient(to left, rgba(255,0,224,1) 0%, rgb(17, 0, 255));
+  border-image-slice: 2;
 }
