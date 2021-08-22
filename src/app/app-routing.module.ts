@@ -126,10 +126,10 @@ const routes: Routes = [
       title: 'StackSystem | Spotlights'
     }
   },
-  
-
-
-
+  {
+    path:'**',
+    component:MainComponent,
+  }
 ];
 
 @NgModule({

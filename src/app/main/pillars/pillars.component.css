@@ -14,8 +14,12 @@
 
 
 h4{
-    color: #249063;
-    font-weight: bolder;
+  font-family: Arial;
+  font-weight: 700;
+}
+h4 span{
+  font-family: Arial;
+  font-weight: 700;
 }
 
 a{

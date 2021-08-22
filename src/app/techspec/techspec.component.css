@@ -1,88 +1,19 @@
-* {
-    box-sizing: border-box;
-  }
-  
+@import url(../../app/aboutus/team/team.component.css);
 
-  a {
-    color: inherit;
-  }
-  
-  .cards-wrapper {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4rem;
-    padding: 4rem;
-    margin: 0 auto;
-    width: max-content;
-  }
-  
-  .card {
-    --bg-filter-opacity: 00;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, var(--bg-filter-opacity)),
-        rgba(0, 0, 0, var(--bg-filter-opacity))
-      ),
-      var(--bg-img);
-    height: 20em;
-    width: 15em;
-    font-size: 1.5em;
-    color: white;
-    padding: 1em;
-    display: flex;
-    align-items: flex-end;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 0 5em -1em black;
-    transition: all, var(--transition-time);
-    position: relative;
-    overflow: hidden;
-    text-decoration: none;
-  }
-  
-  h1{
-    font-family: Arial;
-    background: -webkit-linear-gradient(85deg, rgb(0, 163, 35) 0%, rgb(217, 255, 0) 25%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
-    font-size: 35px;
-  }
-  
-  /* MEDIA QUERIES */
-  @media screen and (max-width: 1285px) {
-    .cards-wrapper {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media screen and (max-width: 900px) {
-    .cards-wrapper {
-      grid-template-columns: 1fr;
-    }
-    .info {
-      justify-content: center;
-    }
-    
-  }
-  
-  @media screen and (max-width: 500px) {
-    .cards-wrapper {
-      padding: 4rem 2rem;
-    }
-    .card {
-      max-width: calc(100vw - 4rem);
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    .info {
-      display: block;
-      text-align: center;
-    }
-    .info h1 {
-      margin: 0;
-    }
-  }
-  
+.download
+{
+  color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    text-align: center;
+    transition: all .3s ease 0s;
+    background: rgb(0, 180, 111);
+}
+.bi
+{
+  color: black;
+}

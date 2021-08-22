@@ -34,6 +34,8 @@ import { ServbannerComponent } from './services/servbanner/servbanner.component'
 import { AubannerComponent } from './aboutus/aubanner/aubanner.component';
 import { AucardComponent } from './aboutus/aucard/aucard.component';
 import { MissionComponent } from './aboutus/mission/mission.component';
+import { SsstartComponent } from './aboutus/ssstart/ssstart.component';
+import { TeamComponent } from './aboutus/team/team.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { MissionComponent } from './aboutus/mission/mission.component';
     ServbannerComponent,
     AubannerComponent,
     AucardComponent,
-    MissionComponent
+    MissionComponent,
+    SsstartComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

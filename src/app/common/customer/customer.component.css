@@ -32,3 +32,12 @@
     padding: 10px;
   }
 }
+
+h3{
+  font-family: Arial;
+  font-weight: 700;
+}
+h3 span{
+  font-family: Arial;
+  font-weight: 700;
+}
